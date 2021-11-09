@@ -6,7 +6,7 @@ import {
   Input,
   OnInit,
 } from '@angular/core';
-import { InputRefDirective } from 'src/app/common/input-ref.directive';
+import { InputRefDirective } from 'src/app/lib/common/input-ref.directive';
 
 @Component({
   selector: 'app-fa-input',

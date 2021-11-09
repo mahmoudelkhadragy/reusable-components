@@ -1,0 +1,11 @@
+$border_color: #222;
+$focus_color: #f5aa3a;
+
+:host-context(.fa-input-secondary-theme) {
+  border-color: $border_color;
+
+  &.input-focus {
+    border-color: $focus_color;
+    box-shadow: 0 0 5px $focus_color;
+  }
+}
